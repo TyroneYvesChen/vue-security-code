@@ -129,7 +129,10 @@
   .input-code {
     position: absolute;
     left: -9999px;
-    top: -9999px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
   }
 
 </style>
